@@ -1,3 +1,34 @@
-Signature recognition is a behavioural biometric. It can be operated in two different ways: Static: In this mode, users write their signature on paper, digitize it through an optical scanner or a camera, and the biometric system recognizes the signature analyzing its shape. This group is also known as “off-line”. Dynamic: In this mode, users write their signature in a digitizing tablet, which acquires the signature in real time. Another possibility is the acquisition by means of stylus-operated PDAs. Some systems also operate on smart-phones or tablets with a capacitive screen, where users can sign using a finger or an appropriate pen. Dynamic recognition is also known as “on-line”. Dynamic information usually consists of the following information:
+# Signature Recognition
 
-Before downloading the project download the necessary modules: pip install keras pip install numpy pip install pandas pip install sklearn pip install os pip install matplotlib
+Signature recognition is a powerful behavioral biometric method for verifying and authenticating individuals based on their unique signatures. This README provides an overview of signature recognition, its two primary modes of operation, and the prerequisites for running this project.
+
+## Modes of Operation
+
+Signature recognition can be operated in two distinct modes:
+
+### Static (Offline)
+
+In the static mode, users create their signatures on paper, which are then digitized using optical scanners or cameras. The biometric system analyzes the shape and features of these digitized signatures to perform recognition. This mode is often referred to as "offline" recognition.
+
+### Dynamic (Online)
+
+In the dynamic mode, users create their signatures using a digitizing tablet, stylus-operated PDAs, or even smartphones or tablets with capacitive screens. This mode allows for real-time acquisition of the signature. Dynamic recognition is also known as "online" recognition.
+
+Dynamic recognition captures additional information about the signature, including various dynamic features:
+
+- **Pressure**: The force applied while signing.
+- **Speed**: The rate at which the signature is drawn.
+- **Acceleration**: Changes in speed during the signing process.
+- **Pen Tilt**: The angle at which the pen or stylus is held.
+
+## Prerequisites
+
+Before you can run this project, ensure that you have the following Python modules installed:
+
+```bash
+pip install keras
+pip install numpy
+pip install pandas
+pip install sklearn
+pip install os
+pip install matplotlib
